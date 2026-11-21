@@ -1,0 +1,202 @@
+{
+  "entrySpaceId": "ce0b7c4e-c4a7-475f-a0c8-713e444ef1dd",
+  "objects": {
+    "19de0e2e-2b29-49ad-a169-a524a82a0877": {
+      "components": {},
+      "geometry": null,
+      "id": "19de0e2e-2b29-49ad-a169-a524a82a0877",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Luz ambiental",
+      "order": 1.5,
+      "parentId": "ce0b7c4e-c4a7-475f-a0c8-713e444ef1dd",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "292d6a99-6229-470e-9b26-64d24818a88e": {
+      "camera": {
+        "type": "perspective",
+        "fov": 60,
+        "nearClip": 0.01,
+        "farClip": 1000,
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
+          "headset": "disabled",
+          "direction": "back"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "292d6a99-6229-470e-9b26-64d24818a88e",
+      "material": null,
+      "name": "Cámara",
+      "order": 0.5,
+      "parentId": "ce0b7c4e-c4a7-475f-a0c8-713e444ef1dd",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "2f7b8bd9-9f27-45f5-8c0d-c51f2003880f": {
+      "components": {},
+      "geometry": null,
+      "id": "2f7b8bd9-9f27-45f5-8c0d-c51f2003880f",
+      "light": {
+        "type": "directional",
+        "intensity": 1
+      },
+      "material": null,
+      "name": "Luz direccional",
+      "order": 2.5,
+      "parentId": "ce0b7c4e-c4a7-475f-a0c8-713e444ef1dd",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "38917848-b497-4889-a067-4ed0c0409104": {
+      "components": {},
+      "geometry": null,
+      "id": "38917848-b497-4889-a067-4ed0c0409104",
+      "imageTarget": {
+        "name": "Libro_album_asma_0011_Artboard_11"
+      },
+      "material": null,
+      "name": "Marcador · Libro_album_asma_0011_Artboard_11",
+      "order": 4.5,
+      "parentId": "ce0b7c4e-c4a7-475f-a0c8-713e444ef1dd",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "9082f5b3-a215-437b-b2fb-bfd08e2a4c14": {
+      "components": {
+        "168d99b7-5fc9-4517-be4c-5f144aa7f8da": {
+          "id": "168d99b7-5fc9-4517-be4c-5f144aa7f8da",
+          "name": "inre-gif",
+          "parameters": {
+            "alphaTest": 0
+          }
+        },
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.745,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "box",
+        "width": 1,
+        "height": 1,
+        "depth": 1
+      },
+      "id": "9082f5b3-a215-437b-b2fb-bfd08e2a4c14",
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "roughness": 0.85,
+        "metalness": 0,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Animacion_Asma_1.gif"
+        },
+        "inreMaterial": "Animacion_Asma_1"
+      },
+      "name": "Cubo",
+      "order": 0.7656682269964636,
+      "parentId": "38917848-b497-4889-a067-4ed0c0409104",
+      "position": [
+        0,
+        -0.009,
+        0.662
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865475
+      ],
+      "scale": [
+        0.881,
+        0.75,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    }
+  },
+  "spaces": {
+    "ce0b7c4e-c4a7-475f-a0c8-713e444ef1dd": {
+      "activeCamera": "292d6a99-6229-470e-9b26-64d24818a88e",
+      "id": "ce0b7c4e-c4a7-475f-a0c8-713e444ef1dd",
+      "name": "Espacio principal"
+    }
+  }
+}
